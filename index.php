@@ -32,11 +32,19 @@
         </select>
         </p>
         
-        
+        <!-- NOMBRE D'ENFANTS DE MOINS DE 13 ANS (limité à 3 enfants par foyé) -->
+        <p>
+        <label>Nombre d'enfants: </label>
+         <select name="nbenf">
+            <option value="0" selected="selected">Pas d'enfant</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+			<option value="3">3</option>
+        </select>
+        </p>
         
         
         <p><input type="submit" /></p>
-
 
     </form>    
 

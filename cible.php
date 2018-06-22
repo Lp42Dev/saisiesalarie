@@ -45,6 +45,27 @@
                 echo "non définie";
         
         }
+
+		echo 'Nombre enfants: ' . $_POST['nbenf'] . ' - ';
+        switch ($_POST['nbenf'])
+        {
+            case 0:
+                echo '0 enfant';
+            break;
+
+            case 1:
+                echo '1 enfant';
+            break;
+
+            case 2:
+                echo '2 enfants';
+            break;
+
+            default:
+                echo "non définie";
+        
+        }
+		
         echo "</p>";
 
 
