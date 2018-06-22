@@ -5,7 +5,14 @@
     </head>
 
     <body>
-
+	
+		<img
+			src="./photo.jpg" 
+			alt="oups! chti soucis avec image"
+			height="150px" 
+			width="150px" 
+		/>
+		
         <?php
         echo '<p>Nom: ' . htmlspecialchars($_POST['nom']) . '<br>';
 
