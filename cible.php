@@ -26,7 +26,7 @@
             echo '<p>Intinerant: NON<br>'; 
         }
         
-        echo 'Situation familiale: ' . $_POST['sitfam'] . ' - ';
+        echo 'Situation familiale: ';
         switch ($_POST['sitfam'])
         {
             case 0:
@@ -46,29 +46,9 @@
         
         }
 
-		echo 'Nombre enfants: ' . $_POST['nbenf'] . ' - ';
-        switch ($_POST['nbenf'])
-        {
-            case 0:
-                echo '0 enfant';
-            break;
-
-            case 1:
-                echo '1 enfant';
-            break;
-
-            case 2:
-                echo '2 enfants';
-            break;
-
-            default:
-                echo "non définie";
-        
-        }
-		
+		echo '<br>Nombre d\'enfants de moins de 13 ans: ' . $_POST['nbenf'];
+        		
         echo "</p>";
-
-
 
         ?>
 

@@ -34,7 +34,7 @@
         
         <!-- NOMBRE D'ENFANTS DE MOINS DE 13 ANS (limité à 3 enfants par foyé) -->
         <p>
-        <label>Nombre d'enfants: </label>
+        <label>Nombre d'enfants de moins de 13 ans: </label>
          <select name="nbenf">
             <option value="0" selected="selected">Pas d'enfant</option>
             <option value="1">1</option>
